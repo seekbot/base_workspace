@@ -3,7 +3,7 @@ I did not encounter a ROS2 image template where a user can work right away in cr
 
 However, this template should take care of the first build and source for setting up your ROS2 workspace environment. 
 
-Additionally, you may uncomment "--gpus", "all" in devcontainer.json to enable NVIDIA GPU acceleration for this container.
+Additionally, you may uncomment "--gpus", "all" in devcontainer.json to enable NVIDIA GPU acceleration for this container if you have NVIDIA-Container-Toolkit installed.
 
 ## Pre-requisites
 <li> VS Code (Remote Development extension pack) </li>
