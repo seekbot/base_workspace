@@ -8,9 +8,9 @@
     // "--gpus","all"
   ],
   "containerEnv": {
-    "DISPLAY":"unix:0",
-    "ROS_LOCALHOST_ONLY":"1",
-    "ROS_DOMAIN_ID":"42"
+    "DISPLAY": "unix:0",
+    "ROS_LOCALHOST_ONLY": "1",
+    "ROS_DOMAIN_ID": "42"
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "workspaceFolder": "/${localWorkspaceFolderBasename}",
